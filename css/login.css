@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+body{
+     background-color: #F9B872;
+     font-family: 'Dosis', sans-serif;
+}
+.worldcup_logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.worldcup_logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.topbar{
+    display: flex;
+    gap: 30px;
+    padding-left: 20%;
+    background-color: #0d1635;
+    color: white;
+    height: 50px;
+    
+}
+.topbar img{
+    width: 50px;
+    height: 50px;
+}
+
+.topbar a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15%;
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+
+.main_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10%;
+    background-color: #F9B872;
+}
+
+.main_login{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    /* background-image: linear-gradient(aqua,yellowgreen)             ; */
+    background-color: #B6E1E7;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Dancing Script', cursive; */
+    
+}
+
+.main_login a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.main_box h3{
+    font-weight: normal;
+}
+.uname{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #B6E1E7;
+
+}
+
+.uname h3{
+    margin-left: 30px;
+}
+
+.uname input{
+    width: 200px;
+}
+.login_box{
+    width: 200px;
+    height: 50px;
+    background-image:linear-gradient(white,aqua);
+    text-align: center;
+    border-radius: 50px;
+}
+
+
+.login_box p{
+    margin-top: 7%;
+}
+
+.resturant_photo{
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+}
+ 
+.resturant_photo img{
+    width: 400px;
+    height: 400px;
+}
+
+.resturant_photo a{
+    text-decoration: none;
+}

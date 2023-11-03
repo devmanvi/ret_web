@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: orange;
+    font-family: 'Dosis', sans-serif;
+}
+.worldcup_logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.worldcup_logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.topbar{
+    height: 50px;
+    display: flex;
+    gap: 40px;
+    padding-left: 20%;
+    background-color: #0d1635;
+    color: white;
+    
+}
+.topbar img{
+    width: 50px;
+    height: 50px;
+}
+
+.topbar a{
+    text-decoration: none;
+    color: white;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+.menu_image{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+   
+}
+
+.menu_image img{
+    width: 180px;
+    height: 190px;
+    border-radius: 30px;
+    margin-left: 40%;
+}
+
+.pizza_menu{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: orange;
+}
+
+.pizza1{
+    width: 270px;
+    height: 210px;
+    margin-left: 30px;
+    
+}
+.pizza1 img{
+    width: 250px;
+    height: 190px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.pizza1 p{
+    font-size: 20px;
+}
